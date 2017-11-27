@@ -1,0 +1,739 @@
+@charset "utf-8";
+.ficon, em, i {
+    font-style: normal
+}
+
+*, select {
+    outline: 0
+}
+
+.page_banner, .page_head, .page_introduce {
+    text-transform: uppercase
+}
+
+.page_banner .btn p, .page_banner .time .time_box .num, .page_banner .title, .page_head, .page_introduce {
+    text-shadow: 0.01rem 0.01rem 0 rgba(10, 0, 0, .3)
+}
+
+@font-face {
+    font-family: iconfont;
+    src: url(//at.alicdn.com/t/font_r7ldj8llzrm5cdi.eot);
+    src: url(//at.alicdn.com/t/font_r7ldj8llzrm5cdi.eot?#iefix) format('embedded-opentype'), url(//at.alicdn.com/t/font_r7ldj8llzrm5cdi.woff) format('woff'), url(//at.alicdn.com/t/font_r7ldj8llzrm5cdi.ttf) format('truetype'), url(//at.alicdn.com/t/font_r7ldj8llzrm5cdi.svg#iconfont) format('svg')
+}
+
+.ficon {
+    font-family: iconfont !important;
+    font-size: 0.2rem;
+    /*抗锯齿渲染*/
+    -webkit-font-smoothing: antialiased;
+    /*文字描边*/
+    -webkit-text-stroke-width: 0.002rem;
+    -moz-osx-font-smoothing: grayscale
+}
+
+body {
+    font-size: 0.12rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    background: #11154b;
+    color: #fff;
+}
+
+.clearFix:after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.clearFix {
+    zoom: 1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    /*允许在单词内换行*/
+    word-break: break-all;
+    /*防止在手机上点击时产生高亮*/
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -moz-tap-highlight-color: rgba(255, 255, 255, 0);
+    -ms-tap-highlight-color: rgba(255, 255, 255, 0);
+    -o-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+b, strong {
+    font-weight: 400;
+}
+
+.agenda_title_h2 strong, .header_pay, .images_box div .h2, .ticket_btn {
+    font-weight: 700;
+}
+
+input[type=button], input[type=submit], input[type=reset], input[type=text] {
+    -webkit-appearance: none;
+    border: none;
+}
+
+textarea {
+    -webkit-appearance: none;
+}
+
+select {
+    border: 0.01rem solid rgba(255, 255, 255, .7);
+    background: rgba(255, 255, 255, .7);
+    box-shadow: 0 0.002rem 0.005rem 0 #e5e5e5;
+    /*改变元素的默认风格*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 0.14rem;
+    border-radius: 0.004rem;
+}
+
+/*隐藏下拉框三角*/
+select::-ms-expand {
+    display: none;
+}
+
+/*设置input的placeholder值*/
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #d0cdcd;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #d0cdcd;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #d0cdcd;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #d0cdcd;
+}
+
+pre {
+    /*保留空白序列，但是正常换行*/
+    white-space: pre-wrap;
+    /*在长单词活url地址内部进行换行*/
+    word-wrap: break-word;
+}
+
+.hidden {
+    display: none;
+}
+
+.fl_left {
+    float: left;
+}
+
+.fl_right {
+    float: right;
+}
+
+/*导航*/
+.menu {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+    width: 60%;
+    height: 78%;
+    background: rgba(0, 0, 0, 0.8);
+    transition: .4s all ease;
+    -webkit-transition: .4s all ease;
+    -moz-transition: .4s all ease;
+    -o-transition: .4s all ease;
+    -ms-transition: .4s all ease;
+}
+
+.menu.active {
+    bottom: 0;
+}
+
+.menu li {
+    flex: 1;
+}
+
+.menu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 0.34rem;
+    color: #fff;
+}
+.menu li a.active{
+    color: #f5c830;
+}
+
+/*导航按钮*/
+.menu_click {
+    position: fixed;
+    left: 0.3rem;
+    bottom: 1.86rem;
+    z-index: 2;
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
+/*奖项评选*/
+.prize_box {
+    position: fixed;
+    right: -0.2rem;
+    bottom: 1.56rem;
+    z-index: 2;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url('../../images/app/icon_toupiao@2x.png') no-repeat;
+    background-size: 100%;
+    opacity: 0;
+    transition: .4s all ease;
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+    -o-transition: 1s all ease;
+    -ms-transition: 1s all ease;
+}
+
+.prize_box.active {
+    right: 0.3rem;
+    opacity: 1;
+}
+
+/*banner图*/
+.page_banner {
+    width: 100%;
+}
+
+.content_box {
+    margin: 0 0.3rem;
+}
+
+/*标题*/
+.model_title {
+    display: block;
+    margin: 0 auto 0.6rem;
+    width: 3.91rem;
+    height: 0.83rem;
+    background: url('../../images/app/title_1@2x.png') no-repeat;
+    background-size: 100%;
+}
+
+/*锚点css*/
+.meet_scale_a_m, .meet_guest_a_m, .meet_agenda_a_m, .meet_enroll_a_m, .meet_partner_a_m, .meet_address_a_m, .meet_contact_a_m {
+    position: absolute;
+    top: -0.6rem;
+}
+
+/*峰会规模*/
+.meet_scale {
+    position: relative;
+    margin: -1.5rem 0 0.6rem;
+    width: 100%;
+}
+
+.meet_scale ul li {
+    float: left;
+    margin: 0 0.15rem 0.15rem 0;
+    width: 2.2rem;
+    height: 1.7rem;
+    background: #122c6d;
+    font-family: 'FZLTXHK--GBK1-0';
+}
+
+.meet_scale ul li.end {
+    margin-right: 0;
+}
+
+.meet_scale ul li.bottom {
+    margin-bottom: 0;
+}
+
+.meet_scale ul li img {
+    display: block;
+    padding-top: 0.26rem;
+    margin: 0 auto;
+    width: 0.36rem;
+    height: 0.36rem;
+}
+
+.meet_scale ul li span {
+    margin: 0.14rem 0 0.02rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #f2cf2d;
+}
+
+.meet_scale ul li p {
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #fff;
+}
+
+/*拟邀嘉宾*/
+.model_title.meet_guest_a {
+    background: url('../../images/app/title_2@2x.png') no-repeat;
+    background-size: 100%;
+}
+
+.meet_guest {
+    position: relative;
+}
+
+.meet_guest ul {
+    overflow: hidden;
+    height: 20.2rem;
+}
+
+.meet_guest ul li {
+    float: left;
+    margin: 0 0.24rem 0.48rem 0;
+    width: 2.14rem;
+    height: 3.6rem;
+}
+
+.meet_guest ul li.end {
+    margin-right: 0;
+}
+
+.meet_guest ul li.click_more {
+    margin-bottom: 1.4rem;
+}
+
+.meet_guest ul li.click_more .guest_top .people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.06rem;
+    padding-left: 0.14rem;
+    width: 1.3rem;
+    background: #4dacef;
+    font-size: 0.24rem;
+}
+
+.meet_guest ul li .guest_top {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 2.14rem;
+}
+
+.meet_guest ul li .guest_top .out_circle {
+    position: absolute;
+    top: 0.04rem;
+    left: 0;
+    width: 100%;
+    /*animation: rotateOut 18s infinite linear;*/
+    /*-ms-animation: rotateOut 18s infinite linear;*/
+    /*-moz-animation: rotateOut 18s infinite linear;*/
+    /*-webkit-animation: rotateOut 18s infinite linear;*/
+    /*-o-animation: rotateOut 18s infinite linear;*/
+}
+
+.meet_guest ul li .guest_top .inner_circle {
+    position: absolute;
+    top: 0.22rem;
+    left: 0.54rem;
+    width: 50%;
+    /*animation: rotateInner 18s infinite linear;*/
+    /*-ms-animation: rotateInner 18s infinite linear;*/
+    /*-moz-animation: rotateInner 18s infinite linear;*/
+    /*-webkit-animation: rotateInner 18s infinite linear;*/
+    /*-o-animation: rotateInner 18s infinite linear;*/
+}
+
+.meet_guest ul li .guest_top .people {
+    margin: 0.31rem 0 0 0.33rem;
+    width: 1.44rem;
+    height: 1.44rem;
+    border: 0.03rem solid #00ffff;
+    border-radius: 50%;
+}
+
+/*动画*/
+@keyframes rotateOut {
+    0% {
+        transform: rotate(0);
+        -ms-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -o-transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg)
+    }
+}
+
+@keyframes rotateInner {
+    0% {
+        transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg)
+    }
+    100% {
+        transform: rotate(0);
+        -ms-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -o-transform: rotate(0)
+    }
+}
+
+.meet_guest ul li span {
+    display: block;
+    margin: 0.24rem 0 0.12rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #fff;
+    font-family: 'MicrosoftYaHei-Bold';
+}
+
+.meet_guest ul li p {
+    width: 100%;
+    text-align: center;
+    font-size: 0.2rem;
+    font-family: 'MicrosoftYaHei-Bold';
+}
+
+/*峰会议程*/
+.model_title.meet_agenda_a {
+    margin: 0.12rem auto 0.5rem;
+    background: url('../../images/app/title_3@2x.png') no-repeat;
+    background-size: 100%;
+}
+
+.meet_agenda {
+    position: relative;
+}
+
+.meet_agenda .meet_agenda_title {
+    display: block;
+    margin: 0 auto;
+    width: 3rem;
+}
+
+.meet_agenda .meet_agenda_content {
+    overflow: hidden;
+    margin: 0.2rem 0 0.6rem;
+    background: #122c6d;
+    font-family: 'Microsoft YaHei';
+}
+
+.meet_agenda .meet_agenda_content ul {
+    float: left;
+}
+
+.meet_agenda .meet_agenda_content .top_title {
+    overflow: hidden;
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.24rem;
+    background-image: -webkit-linear-gradient(to right, #2c61bc, #67bde5);
+    background-image: -moz-linear-gradient(to right, #2c61bc, #67bde5);
+    background-image: -o-linear-gradient(to right, #2c61bc, #67bde5);
+    background-image: -ms-linear-gradient(to right, #2c61bc, #67bde5);
+    background-image: linear-gradient(to right, #2c61bc, #67bde5);
+}
+
+.meet_agenda .meet_agenda_content .top_title li {
+    float: left;
+}
+
+.meet_agenda .meet_agenda_content .top_title li:first-child {
+    margin-left: 0.3rem;
+}
+
+.meet_agenda .meet_agenda_content .top_title li:last-child {
+    margin-left: 1.2rem;
+}
+
+.meet_agenda .meet_agenda_content .center_title {
+    overflow: hidden;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.24rem;
+}
+
+.meet_agenda .meet_agenda_content .center_title p {
+    float: left;
+}
+
+.meet_agenda .meet_agenda_content .center_title p:last-child {
+    margin-left: 0.8rem;
+}
+
+/*列表*/
+.meet_agenda .meet_agenda_content .content_list {
+    overflow: hidden;
+    text-align: left;
+    font-size: 0.22rem;
+    width: 100%
+}
+
+.meet_agenda .meet_agenda_content .content_list li {
+    overflow: hidden;
+    padding: 0 0.3rem;
+}
+
+.meet_agenda .meet_agenda_content .content_list li div {
+    float: left;
+}
+
+.meet_agenda .meet_agenda_content .content_list li:nth-child(even) {
+    background-image: -webkit-linear-gradient(to right, #1d367d, #223e80);
+    background-image: -moz-linear-gradient(to right, #1d367d, #223e80);
+    background-image: -o-linear-gradient(to right, #1d367d, #223e80);
+    background-image: -ms-linear-gradient(to right, #1d367d, #223e80);
+    background-image: linear-gradient(to right, #1d367d, #223e80);
+}
+
+.meet_agenda .meet_agenda_content .content_list li:nth-child(even) {
+    background-image: -webkit-linear-gradient(to right, #223e80, #2f528a);
+    background-image: -moz-linear-gradient(to right, #223e80, #2f528a);
+    background-image: -o-linear-gradient(to right, #223e80, #2f528a);
+    background-image: -ms-linear-gradient(to right, #223e80, #2f528a);
+    background-image: linear-gradient(to right, #223e80, #2f528a);
+}
+
+.meet_agenda .meet_agenda_content .content_list .time {
+    margin-top: 0.3rem;
+    width: 31%;
+}
+
+.meet_agenda .meet_agenda_content .content_list .time p {
+    margin-top: 0.14rem;
+}
+
+.meet_agenda .meet_agenda_content .content_list .theme {
+    padding-left: 0.2rem;
+    width: 65%;
+}
+
+.meet_agenda .meet_agenda_content .content_list .theme span {
+    float: left;
+    margin: 0.3rem 0 0.2rem;
+    width: 100%;
+}
+
+.meet_agenda .meet_agenda_content .content_list .theme img {
+    float: left;
+    margin: 0 0.1rem 0.3rem 0;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+}
+
+.meet_agenda .meet_agenda_content .content_list .theme div {
+    overflow: hidden;
+    font-size: 0.20rem;
+    font-family: 'Microsoft YaHei';
+}
+
+.meet_agenda .meet_agenda_content .content_list .theme div b {
+    display: block;
+    margin-bottom: 0.02rem;
+}
+
+/*活动报名*/
+.model_title.meet_enroll_a {
+    background: url('../../images/app/title_4@2x.png') no-repeat;
+    background-size: 100%;
+}
+
+.meet_enroll {
+    overflow: hidden;
+    position: relative;
+}
+
+.meet_enroll div {
+    float: left;
+    overflow: hidden;
+    margin: 0 0.15rem 0.6rem 0;
+    width: 2.2rem;
+    height: 3.2rem;
+    background: url('../../images/app/img_piao1@2x.png') no-repeat;
+    background-size: 100%;
+}
+
+.meet_enroll div a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.meet_enroll div.ordinary {
+    background: url('../../images/app/img_piao2@2x.png') no-repeat;
+    background-size: 100%;
+}
+
+.meet_enroll div.end {
+    margin-right: 0;
+    background: url('../../images/app/img_piao3@2x.png') no-repeat;
+    background-size: 100%;
+}
+
+/*合作伙伴*/
+.model_title.meet_partner_a {
+    background: url('../../images/app/title_5@2x.png') no-repeat;
+    background-size: 100%;
+}
+
+.meet_partner {
+    position: relative;
+    margin-bottom: 0.6rem;
+}
+
+.meet_partner b {
+    display: block;
+    margin-top: 0.3rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #a2cce5;
+    font-family: 'MicrosoftYaHei-Bold';
+}
+
+.meet_partner div {
+    overflow: hidden;
+}
+
+.meet_partner div.host {
+    display: flex;
+    justify-content: center;
+}
+
+.meet_partner div.host img {
+    margin: 0.2rem 0 0 0;
+}
+
+.meet_partner img {
+    float: left;
+    margin: 0.2rem 0.3rem 0 0;
+    width: 1.5rem;
+    height: 0.5rem;
+}
+
+.meet_partner img.host {
+    margin: 0.2rem auto 0;
+}
+
+.meet_partner img:nth-child(4n) {
+    margin-right: 0;
+}
+
+/*峰会地址*/
+.model_title.meet_address_a {
+    background: url('../../images/app/title_6@2x.png') no-repeat;
+    background-size: 100%;
+}
+
+.meet_address {
+    position: relative;
+}
+
+.meet_address img {
+    width: 6.9rem;
+    height: 3.2rem;
+    margin-bottom: 0.6rem;
+}
+
+/*联系我们*/
+.model_title.meet_contact_a {
+    background: url('../../images/app/title_7@2x.png') no-repeat;
+    background-size: 100%;
+}
+
+.meet_contact {
+    position: relative;
+}
+
+.meet_contact ul {
+    overflow: hidden;
+    margin-bottom: 0.7rem;
+}
+
+.meet_contact ul li {
+    float: left;
+    margin-bottom: 0.4rem;
+    width: 100%;
+    font-family: 'Microsoft YaHei';
+}
+
+.meet_contact ul li b {
+    display: block;
+    margin-bottom: 0.2rem;
+    font-size: 0.28rem;
+    color: #a2cce5;
+}
+
+.meet_contact ul li .meet_contact_people {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    height: 2.5rem;
+    background-image: -webkit-linear-gradient(to right, #15255f, #253d75);
+    background-image: -moz-linear-gradient(to right, #15255f, #253d75);
+    background-image: -o-linear-gradient(to right, #15255f, #253d75);
+    background-image: -ms-linear-gradient(to right, #15255f, #253d75);
+    background-image: linear-gradient(to right, #15255f, #253d75);
+}
+
+.meet_contact ul li .meet_contact_people div {
+    height: 100%;
+}
+
+.meet_contact ul li div .head_portrait {
+    margin: 0.3rem 0.1rem 0.3rem 0.3rem;
+    float: left;
+    width: 0.7rem;
+    height: 0.7rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.meet_contact ul li div span {
+    float: left;
+    margin-top: 0.48rem;
+    font-size: 0.22rem;
+    color: #fff;
+    font-family: 'Microsoft YaHei';
+}
+
+.meet_contact ul li div p {
+    clear: both;
+    margin-left: 0.26rem;
+    font-size: 0.22rem;
+    line-height: 0.3rem;
+}
+
+.meet_contact ul li div .qr_code {
+    float: right;
+    margin-right: 0.4rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #fff;
+}
+
+
