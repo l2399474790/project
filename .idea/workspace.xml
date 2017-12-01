@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba97cb3c-9f2e-45cd-ae8b-be5203751da9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITears/css/pc/index.min.css" afterPath="$PROJECT_DIR$/ITears/css/pc/index.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project.iws" />
@@ -34,20 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.min.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ITears/css/app/index.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="331" column="1" selection-start-line="331" selection-start-column="1" selection-end-line="331" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.114583336">
+              <caret line="420" column="13" selection-start-line="420" selection-start-column="4" selection-end-line="420" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meetPC.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="meetPC.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ITears/meetPC.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70682395">
+            <state vertical-scroll-proportion="-16.766666">
               <caret line="996" column="40" selection-start-line="996" selection-start-column="40" selection-end-line="996" selection-end-column="40" />
               <folding />
             </state>
@@ -232,6 +231,9 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ba97cb3c-9f2e-45cd-ae8b-be5203751da9" name="Default" comment="" />
@@ -242,7 +244,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1140" y="0" width="1425" height="1398" extended-state="0" />
+    <frame x="1140" y="0" width="1425" height="1398" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -263,6 +265,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -356,18 +366,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITears/css/app/index.min.css">
+    <entry file="file://$PROJECT_DIR$/ITears/meetPC.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="331" column="1" selection-start-line="331" selection-start-column="1" selection-end-line="331" selection-end-column="1" />
+        <state vertical-scroll-proportion="-16.766666">
+          <caret line="996" column="40" selection-start-line="996" selection-start-column="40" selection-end-line="996" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITears/meetPC.html">
+    <entry file="file://$PROJECT_DIR$/ITears/css/app/index.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70682395">
-          <caret line="996" column="40" selection-start-line="996" selection-start-column="40" selection-end-line="996" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.114583336">
+          <caret line="420" column="13" selection-start-line="420" selection-start-column="4" selection-end-line="420" selection-end-column="13" />
           <folding />
         </state>
       </provider>

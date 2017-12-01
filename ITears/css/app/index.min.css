@@ -232,7 +232,7 @@ pre {
 /*锚点css*/
 .meet_scale_a_m, .meet_guest_a_m, .meet_agenda_a_m, .meet_enroll_a_m, .meet_partner_a_m, .meet_address_a_m, .meet_contact_a_m {
     position: absolute;
-    top: -0.6rem;
+    top: -0.5rem;
 }
 
 /*峰会规模*/
