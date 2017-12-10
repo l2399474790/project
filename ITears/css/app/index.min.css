@@ -173,7 +173,8 @@ pre {
     font-size: 0.34rem;
     color: #fff;
 }
-.menu li a.active{
+
+.menu li a.active {
     color: #f5c830;
 }
 
@@ -285,7 +286,14 @@ pre {
 
 /*拟邀嘉宾*/
 .model_title.meet_guest_a {
-    background: url('../../images/app/title_2@2x.png') no-repeat;
+    margin: 0 auto;
+    background: url('../../images/pc/touziren.png') no-repeat;
+    background-size: 100%;
+}
+
+.model_title.meet_guest_a_t {
+    margin: 0 auto;
+    background: url('../../images/pc/qiyejia.png') no-repeat;
     background-size: 100%;
 }
 
@@ -293,9 +301,19 @@ pre {
     position: relative;
 }
 
+.meet_guest .meet_guest_introduce {
+    position: relative;
+    left: -2px;
+    margin: 0.3rem 0 0.5rem;
+    text-align: center;
+    font-size: 0.2rem;
+    color: #a2cce5;
+    letter-spacing: 0.06rem;
+}
+
 .meet_guest ul {
     overflow: hidden;
-    height: 20.2rem;
+    height: 12.2rem;
 }
 
 .meet_guest ul li {
@@ -305,7 +323,7 @@ pre {
     height: 3.6rem;
 }
 
-.meet_guest ul li.end {
+.meet_guest ul li:nth-child(3n) {
     margin-right: 0;
 }
 
@@ -534,6 +552,7 @@ pre {
     float: left;
     margin: 0.3rem 0 0.2rem;
     width: 100%;
+    min-height: 0.3rem;
 }
 
 .meet_agenda .meet_agenda_content .content_list .theme img {
@@ -548,6 +567,10 @@ pre {
     overflow: hidden;
     font-size: 0.20rem;
     font-family: 'Microsoft YaHei';
+}
+
+.meet_agenda .meet_agenda_content .content_list .theme div.width_auto {
+    width: 100%;
 }
 
 .meet_agenda .meet_agenda_content .content_list .theme div b {
