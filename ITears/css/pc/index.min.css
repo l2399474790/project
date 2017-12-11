@@ -338,12 +338,12 @@ pre {
 
 .meet_guest .meet_guest_introduce {
     position: relative;
-    left: -2px;
-    margin: 30px 0 50px;
+    left: -7px;
+    margin: 10px 0 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     color: #a2cce5;
-    letter-spacing: 6px;
+    /*letter-spacing: 6px;*/
 }
 
 .meet_guest ul {
@@ -438,14 +438,14 @@ pre {
     text-align: center;
     font-size: 24px;
     color: #fff;
-    font-family: 'MicrosoftYaHei-Bold';
+    font-family: 'MicrosoftYaHei-medium';
 }
 
 .meet_guest ul li p {
     width: 100%;
     text-align: center;
     font-size: 20px;
-    font-family: 'MicrosoftYaHei-Bold';
+    font-family: 'Microsoft YaHei';
 }
 
 /*峰会议程*/

@@ -303,12 +303,12 @@ pre {
 
 .meet_guest .meet_guest_introduce {
     position: relative;
-    left: -2px;
-    margin: 0.3rem 0 0.5rem;
+    left: -0.07rem;
+    margin: 0.1rem 0 0.5rem;
     text-align: center;
-    font-size: 0.2rem;
+    font-size: 0.18rem;
     color: #a2cce5;
-    letter-spacing: 0.06rem;
+    /*letter-spacing: 0.06rem;*/
 }
 
 .meet_guest ul {
@@ -430,7 +430,7 @@ pre {
     width: 100%;
     text-align: center;
     font-size: 0.2rem;
-    font-family: 'MicrosoftYaHei-Bold';
+    font-family: 'MicrosoftYaHei';
 }
 
 /*峰会议程*/
