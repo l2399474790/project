@@ -677,9 +677,6 @@ pre {
 
 .meet_partner div {
     overflow: hidden;
-}
-
-.meet_partner div.host {
     display: flex;
     justify-content: center;
 }
