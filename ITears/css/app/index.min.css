@@ -639,6 +639,14 @@ pre {
 
 .meet_partner div {
     overflow: hidden;
+}
+
+.meet_partner div.center {
+    display: flex;
+    justify-content: center;
+}
+
+.meet_partner div.host {
     display: flex;
     justify-content: center;
 }
