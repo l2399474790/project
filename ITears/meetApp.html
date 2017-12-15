@@ -3,9 +3,8 @@
 <head>
     <title>IEIC·IT耳朵智能创新大会</title>
     <meta charset="UTF-8">
-    <meta name="keywords" content="产业创新,人工智能,共享经济,消费升级,企业服务,一带一路"/>
-    <meta name="description"
-          content="2017年，是创业者们大智慧集中爆发的一年，共享经济、新零售、消费升级、人工智能等产业都已有巨头涌现。新兴产业正在颠覆我们的生活方式，传统行业的盈利模式正在接受前所未有的挑战，创业者们正在创造更多的神话。未来，我们还将怎么样进行产业创新？又如何让黑科技继续改变我们的生活？12月13日来亿欧创新者年会，与各位行业领袖共同探讨产业创新，从不同领域展开激烈碰撞，世界终将被改变！"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
     <meta name="viewport"
           content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="screen-orientation" content="portrait"/>
@@ -15,6 +14,32 @@
     <meta name="full-screen" content="yes">
     <meta name="msapplication-tap-highlight" content="no">
     <link type="text/css" rel="stylesheet" href="css/app/index.min.css"/>
+    <script type="text/javascript">
+        var isMobile = function () {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+            var flag = true;
+            // 如果是在移动端flag为false
+            for (var i = 0; i < Agents.length; i++) {
+                if (userAgentInfo.indexOf(Agents[i]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            // 如果在pc端打开移动端页面，就跳转到pc端
+            if (flag) {
+                window.location.href = 'http://www.iterduo.com/IEIC/meetPC.html';
+            }
+        };
+        // 刚打开的时候执行
+        isMobile();
+        //当浏览器尺寸发生改变的执行
+        window.onresize = function () {
+            isMobile();
+        };
+    </script>
     <script type="text/javascript" src="js/app/Mobile_adaptation.js"></script>
 </head>
 <body>
@@ -405,6 +430,16 @@
                 <div class="guest_top">
                     <img class="out_circle" src="./images/pc/waiquan.png">
                     <img class="inner_circle" src="./images/pc/neiquan.png">
+                    <img class="people" src="./images/people/34.jpg">
+                </div>
+                <span>王洁明</span>
+
+                <p>totwoo智能珠宝CEO</p>
+            </li>
+            <li>
+                <div class="guest_top">
+                    <img class="out_circle" src="./images/pc/waiquan.png">
+                    <img class="inner_circle" src="./images/pc/neiquan.png">
                     <img class="people" src="./images/people/26.jpg">
                 </div>
                 <span>王小川</span>
@@ -449,7 +484,7 @@
                 </div>
                 <span>潘海祥</span>
 
-                <p>IT耳朵创始人&CEO</p>
+                <p>IT耳朵创始人</p>
             </li>
         </ul>
     </div>
@@ -471,7 +506,7 @@
                     <div class="time">
                         <b>峰会签到、开幕</b>
 
-                        <p>8:00-9:10</p>
+                        <p>8:30-9:20</p>
                     </div>
                     <div class="theme">
                         <span>峰会开幕、主办方致辞</span>
@@ -480,15 +515,32 @@
                         <div>
                             <b>潘海祥</b>
 
-                            <p>IT耳朵创始人&CEO</p>
+                            <p>IT耳朵创始人</p>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="time">
+                        <b>开幕</b>
+
+                        <p>9:20-9:30</p>
+                    </div>
+                    <!--<div class="theme">-->
+                        <!--<span>峰会开幕、主办方致辞</span>-->
+                        <!--<img src="./images/people/00.jpg" alt=""/>-->
+
+                        <!--<div>-->
+                            <!--<b>潘海祥</b>-->
+
+                            <!--<p>IT耳朵创始人</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                </li>
+                <li>
+                    <div class="time">
                         <b>主题演讲</b>
 
-                        <p>9:10-10:30</p>
+                        <p>9:30-11:10</p>
                     </div>
                     <div class="theme">
                         <!--<span>AI热潮之下，人工智能投资的冷静思考</span>-->
@@ -564,7 +616,7 @@
                     <div class="time">
                         <b>行业报告发布&颁奖</b>
 
-                        <p>10:30-11:10</p>
+                        <p>11:10-11:30</p>
                     </div>
                     <div class="theme">
                         <span>《2017年人工智能&智能制造行业发展研究报告》与《2017年智能行业穿心企业Top100》发布</span>
@@ -581,7 +633,7 @@
                     <div class="time">
                         <b>圆桌论坛</b>
 
-                        <p>11:10-12:00</p>
+                        <p>11:30-12:10</p>
                     </div>
                     <div class="theme">
                         <span>到底是AI+，还是+AI？</span>
@@ -622,7 +674,8 @@
                                 <p>梅花天使创始合伙人</p>
                             </div>
                         </div>
-                        <div>
+                        <div style="width:100%;height:0.9rem;"></div>
+                        <!--<div>-->
 
                             <!--<img src="./images/people/18.jpg" alt=""/>-->
 
@@ -631,7 +684,7 @@
 
                             <!--<p>灵隆科技CEO</p>-->
                             <!--</div>-->
-                        </div>
+                        <!--</div>-->
                         <div>
                             <img src="./images/people/33.jpg" alt=""/>
 
@@ -643,16 +696,16 @@
                         </div>
                     </div>
                 </li>
-                <li class="center_title">
-                    <p>12:00-13:30</p>
+                <li id="center_title">
+                    <p>12:10-13:00</p>
 
                     <p>午休</p>
                 </li>
                 <li>
                     <div class="time">
-                        <b>峰会签到、开幕</b>
+                        <b>峰会签到</b>
 
-                        <p>13:30-13:40</p>
+                        <p>13:00-14:00</p>
                     </div>
                     <div class="theme">
                         <span>AI大战的人才之争</span>
@@ -669,9 +722,28 @@
                 </li>
                 <li>
                     <div class="time">
-                        <b>主体演讲</b>
+                        <b>开幕</b>
 
-                        <p>13:40-15:20</p>
+                        <p>14:00-14:10</p>
+                    </div>
+                    <div class="theme">
+                        <span>AI大战的人才之争</span>
+
+                        <div style="width:100%;height:0.9rem;"></div>
+                        <!--<img src="./images/people/38.jpg" alt=""/>-->
+
+                        <!--<div>-->
+                        <!--<b>谢磊</b>-->
+
+                        <!--<p>小象学院创始人兼CEO</p>-->
+                        <!--</div>-->
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        <b>主题演讲</b>
+
+                        <p>14:10-15:50</p>
                     </div>
                     <div class="theme">
                         <!--<span>中国特色的AI与智能制造</span>-->
@@ -689,13 +761,14 @@
                     <div class="time"></div>
                     <div class="theme">
                         <span>为什么说人工智能救了智能硬件？</span>
-                        <img src="./images/people/34.jpg" alt=""/>
+                        <div style="width:100%;height:0.9rem;"></div>
+                        <!--<img src="./images/people/34.jpg" alt=""/>-->
 
-                        <div>
-                            <b>王洁明</b>
+                        <!--<div>-->
+                            <!--<b>王洁明</b>-->
 
-                            <p>totwoo智能珠宝CEO</p>
-                        </div>
+                            <!--<p>totwoo智能珠宝CEO</p>-->
+                        <!--</div>-->
                     </div>
                 </li>
                 <li>
@@ -746,7 +819,7 @@
                     <div class="time">
                         <b>圆桌论坛</b>
 
-                        <p>15:20-16:00</p>
+                        <p>15:50-16:30</p>
                     </div>
                     <div class="theme">
                         <span>AI太热，智能制造凉了吗？</span>
@@ -769,15 +842,16 @@
                                 <p>洪泰智造工场创始人</p>
                             </div>
                         </div>
-                        <div class="width_auto">
-                            <img src="./images/people/34.jpg" alt=""/>
+                        <div style="width:100%;height:0.9rem;"></div>
+                        <!--<div class="width_auto">-->
+                            <!--<img src="./images/people/34.jpg" alt=""/>-->
 
-                            <div>
-                                <b>王洁明</b>
+                            <!--<div>-->
+                                <!--<b>王洁明</b>-->
 
-                                <p>totwoo智能珠宝CEO</p>
-                            </div>
-                        </div>
+                                <!--<p>totwoo智能珠宝CEO</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
                         <div class="width_auto">
                             <img src="./images/people/11.jpg" alt=""/>
 
@@ -817,9 +891,9 @@
         <a href="javascript:;" name="meet_enroll_a" class="meet_enroll_a_m"></a>
         <a href="javascript:;" class="model_title meet_enroll_a"></a>
 
-        <div class="vip"><a href="#"></a></div>
-        <div class="ordinary"><a href="#"></a></div>
-        <div class="media end"><a href="#"></a></div>
+        <a href="http://www.huodongxing.com/event/reg_submit?id=6418270847700"><div class="vip"></div></a>
+        <a href="http://www.huodongxing.com/event/reg_submit?id=6418270847700"><div class="ordinary"></div></a>
+        <a href="http://www.huodongxing.com/event/reg_submit?id=6418270847700"><div class="media end"></div></a>
     </div>
 
     <!--合作伙伴-->
@@ -837,6 +911,7 @@
         <div class="center">
             <img src="./images/assist_logo/1.jpg" alt=""/>
             <img src="./images/assist_logo/2.jpg" alt=""/>
+            <img src="./images/assist_logo/3.jpg" alt=""/>
             <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
             <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
             <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
@@ -899,14 +974,14 @@
         <!--<b>战略合作伙伴</b>-->
 
         <!--<div>-->
-            <!--<img src="./images/pc/it.png" alt=""/>-->
-            <!--<img src="./images/pc/it.png" alt=""/>-->
-            <!--<img src="./images/pc/it.png" alt=""/>-->
-            <!--<img src="./images/pc/it.png" alt=""/>-->
-            <!--<img src="./images/pc/it.png" alt=""/>-->
-            <!--<img src="./images/pc/it.png" alt=""/>-->
-            <!--<img src="./images/pc/it.png" alt=""/>-->
-            <!--<img src="./images/pc/it.png" alt=""/>-->
+        <!--<img src="./images/pc/it.png" alt=""/>-->
+        <!--<img src="./images/pc/it.png" alt=""/>-->
+        <!--<img src="./images/pc/it.png" alt=""/>-->
+        <!--<img src="./images/pc/it.png" alt=""/>-->
+        <!--<img src="./images/pc/it.png" alt=""/>-->
+        <!--<img src="./images/pc/it.png" alt=""/>-->
+        <!--<img src="./images/pc/it.png" alt=""/>-->
+        <!--<img src="./images/pc/it.png" alt=""/>-->
         <!--</div>-->
     </div>
 
@@ -998,7 +1073,13 @@
 </div>
 
 <!--奖项评选-->
-<a class="prize_box" href="http://tp.qingpr.com/"></a>
+<a href="http://tp.qingpr.com/">
+    <div class="prize_box">
+        <img src="./images/app/waixiaoquan.png" alt="" class="prize_out"/>
+        <img src="./images/app/neixiaoquan.png" alt="" class="prize_inner"/>
+        <img src="./images/app/xiaoquan.png" alt="" class="prize_center"/>
+    </div>
+</a>
 
 <!--音乐-->
 <!--<audio id="audio" autoplay="autoplay" loop="loop">-->
@@ -1043,11 +1124,11 @@
             oScrolltop = $(window).scrollTop();
             var difference = windowH - oScrolltop;
             // 判断奖项评选的显示和隐藏
-            if (difference < 0) {
-                $(".prize_box").addClass("active");
-            } else if (difference > 0) {
-                $(".prize_box").removeClass("active");
-            }
+//            if (difference < 0) {
+//                $(".prize_box").addClass("active");
+//            } else if (difference > 0) {
+//                $(".prize_box").removeClass("active");
+//            }
             // 当滚动条滑动的时候导航默认样式进行改变
             if (oScrolltop >= indexH - 2 && oScrolltop < meetScaleH - 2) {
                 getOrRemoveClass('#index_nav');
@@ -1069,6 +1150,18 @@
         });
     });
 </script>
+
+<!-- 微信分享start -->
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js?v=4"></script>
+<script src="http://tp.qingpr.com/public/js/wxshare.js?v=4"></script>
+<script>
+    wxtitle='IEIC·IT耳朵智能创新大会';//分享标题
+    wxdesc='近百位知名投资机构大咖，独角兽创始人、创业风云人物，与您相约IEIC·IT耳朵智能创新大会。';//分享描述
+    wximgUrl='http://tp.qingpr.com/public/img/summit.jpg';//分享时显示的图片
+    wxShare(wxtitle, wxdesc, wximgUrl);
+</script>
+<!-- 微信分享end -->
+
 </body>
 </html>
 <!--百度统计-->
