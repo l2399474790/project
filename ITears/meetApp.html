@@ -14,32 +14,32 @@
     <meta name="full-screen" content="yes">
     <meta name="msapplication-tap-highlight" content="no">
     <link type="text/css" rel="stylesheet" href="css/app/index.min.css"/>
-    <!--<script type="text/javascript">-->
-    <!--var isMobile = function () {-->
-    <!--var userAgentInfo = navigator.userAgent;-->
-    <!--var Agents = ["Android", "iPhone",-->
-    <!--"SymbianOS", "Windows Phone",-->
-    <!--"iPad", "iPod"];-->
-    <!--var flag = true;-->
-    <!--// 如果是在移动端flag为false-->
-    <!--for (var i = 0; i < Agents.length; i++) {-->
-    <!--if (userAgentInfo.indexOf(Agents[i]) > 0) {-->
-    <!--flag = false;-->
-    <!--break;-->
-    <!--}-->
-    <!--}-->
-    <!--// 如果在pc端打开移动端页面，就跳转到pc端-->
-    <!--if (flag) {-->
-    <!--window.location.href = 'http://www.iterduo.com/IEIC/meetPC.html';-->
-    <!--}-->
-    <!--};-->
-    <!--// 刚打开的时候执行-->
-    <!--isMobile();-->
-    <!--//当浏览器尺寸发生改变的执行-->
-    <!--window.onresize = function () {-->
-    <!--isMobile();-->
-    <!--};-->
-    <!--</script>-->
+    <script type="text/javascript">
+        var isMobile = function () {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+            var flag = true;
+            // 如果是在移动端flag为false
+            for (var i = 0; i < Agents.length; i++) {
+                if (userAgentInfo.indexOf(Agents[i]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            // 如果在pc端打开移动端页面，就跳转到pc端
+            if (flag) {
+                window.location.href = 'http://www.iterduo.com/IEIC/meetPC.html';
+            }
+        };
+        // 刚打开的时候执行
+        isMobile();
+        //当浏览器尺寸发生改变的执行
+        window.onresize = function () {
+            isMobile();
+        };
+    </script>
     <script type="text/javascript" src="js/app/Mobile_adaptation.js"></script>
 </head>
 <body>

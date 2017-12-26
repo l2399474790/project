@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba97cb3c-9f2e-45cd-ae8b-be5203751da9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITears/css/app/index.min.css" afterPath="$PROJECT_DIR$/ITears/css/app/index.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITears/images/people/56.jpg" afterPath="$PROJECT_DIR$/ITears/images/people/56.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITears/css/pc/index.min.css" afterPath="$PROJECT_DIR$/ITears/css/pc/index.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITears/meetApp.html" afterPath="$PROJECT_DIR$/ITears/meetApp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITears/meetPC.html" afterPath="$PROJECT_DIR$/ITears/meetPC.html" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="meetPC.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ITears/meetPC.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.494737">
-              <caret line="458" column="36" selection-start-line="458" selection-start-column="27" selection-end-line="458" selection-end-column="36" />
+            <state vertical-scroll-proportion="-4.1578946">
+              <caret line="337" column="32" selection-start-line="337" selection-start-column="32" selection-end-line="337" selection-end-column="32" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -45,21 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.min.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ITears/css/pc/index.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="702" column="0" selection-start-line="702" selection-start-column="0" selection-end-line="702" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.74116683">
+              <caret line="974" column="8" selection-start-line="974" selection-start-column="8" selection-end-line="974" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meetApp.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="meetApp.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ITears/meetApp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
-              <caret line="639" column="37" selection-start-line="639" selection-start-column="37" selection-end-line="639" selection-end-column="37" />
+            <state vertical-scroll-proportion="-3.7157896">
+              <caret line="356" column="24" selection-start-line="356" selection-start-column="24" selection-end-line="356" selection-end-column="24" />
               <folding>
                 <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -84,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/ITears/css/app/index.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="340" column="30" selection-start-line="340" selection-start-column="30" selection-end-line="340" selection-end-column="30" />
+              <caret line="825" column="39" selection-start-line="825" selection-start-column="39" selection-end-line="825" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -104,10 +103,10 @@
         <option value="$PROJECT_DIR$/ITears/js/app/hm.js" />
         <option value="$PROJECT_DIR$/ITears/js/app/snowplowfd.js" />
         <option value="$PROJECT_DIR$/../../wxshare.js" />
-        <option value="$PROJECT_DIR$/ITears/css/pc/index.min.css" />
         <option value="$PROJECT_DIR$/ITears/css/app/index.min.css" />
-        <option value="$PROJECT_DIR$/ITears/meetPC.html" />
         <option value="$PROJECT_DIR$/ITears/meetApp.html" />
+        <option value="$PROJECT_DIR$/ITears/meetPC.html" />
+        <option value="$PROJECT_DIR$/ITears/css/pc/index.min.css" />
       </list>
     </option>
   </component>
@@ -813,41 +812,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ITears/meetPC.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.494737">
-          <caret line="458" column="36" selection-start-line="458" selection-start-column="27" selection-end-line="458" selection-end-column="36" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#a#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ITears/css/pc/index.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="702" column="0" selection-start-line="702" selection-start-column="0" selection-end-line="702" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ITears/css/app/index.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="340" column="30" selection-start-line="340" selection-start-column="30" selection-end-line="340" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ITears/meetApp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="639" column="37" selection-start-line="639" selection-start-column="37" selection-end-line="639" selection-end-column="37" />
+        <state vertical-scroll-proportion="-3.7157896">
+          <caret line="356" column="24" selection-start-line="356" selection-start-column="24" selection-end-line="356" selection-end-column="24" />
           <folding>
             <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -864,6 +832,37 @@
             <element signature="n#a#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITears/css/app/index.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="825" column="39" selection-start-line="825" selection-start-column="39" selection-end-line="825" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITears/meetPC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1578946">
+          <caret line="337" column="32" selection-start-line="337" selection-start-column="32" selection-end-line="337" selection-end-column="32" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#a#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITears/css/pc/index.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74116683">
+          <caret line="974" column="8" selection-start-line="974" selection-start-column="8" selection-end-line="974" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
