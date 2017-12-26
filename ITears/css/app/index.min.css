@@ -640,7 +640,7 @@ pre {
 }
 
 .meet_partner img.host {
-    margin: 0.2rem auto 0;
+    margin: 0.2rem 0 0;
 }
 
 .meet_partner img:nth-child(4n) {

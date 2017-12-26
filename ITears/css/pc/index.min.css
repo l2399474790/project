@@ -701,7 +701,7 @@ pre {
 }
 
 .meet_partner img.host {
-    margin: 20px auto 0;
+    margin: 20px 0 0;
 }
 
 .meet_partner img:nth-child(6n) {

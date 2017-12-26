@@ -14,32 +14,32 @@
     <meta name="full-screen" content="yes">
     <meta name="msapplication-tap-highlight" content="no">
     <link type="text/css" rel="stylesheet" href="css/app/index.min.css"/>
-    <script type="text/javascript">
-        var isMobile = function () {
-            var userAgentInfo = navigator.userAgent;
-            var Agents = ["Android", "iPhone",
-                "SymbianOS", "Windows Phone",
-                "iPad", "iPod"];
-            var flag = true;
-            // 如果是在移动端flag为false
-            for (var i = 0; i < Agents.length; i++) {
-                if (userAgentInfo.indexOf(Agents[i]) > 0) {
-                    flag = false;
-                    break;
-                }
-            }
-            // 如果在pc端打开移动端页面，就跳转到pc端
-            if (flag) {
-                window.location.href = 'http://www.iterduo.com/IEIC/meetPC.html';
-            }
-        };
-        // 刚打开的时候执行
-        isMobile();
-        //当浏览器尺寸发生改变的执行
-        window.onresize = function () {
-            isMobile();
-        };
-    </script>
+    <!--<script type="text/javascript">-->
+    <!--var isMobile = function () {-->
+    <!--var userAgentInfo = navigator.userAgent;-->
+    <!--var Agents = ["Android", "iPhone",-->
+    <!--"SymbianOS", "Windows Phone",-->
+    <!--"iPad", "iPod"];-->
+    <!--var flag = true;-->
+    <!--// 如果是在移动端flag为false-->
+    <!--for (var i = 0; i < Agents.length; i++) {-->
+    <!--if (userAgentInfo.indexOf(Agents[i]) > 0) {-->
+    <!--flag = false;-->
+    <!--break;-->
+    <!--}-->
+    <!--}-->
+    <!--// 如果在pc端打开移动端页面，就跳转到pc端-->
+    <!--if (flag) {-->
+    <!--window.location.href = 'http://www.iterduo.com/IEIC/meetPC.html';-->
+    <!--}-->
+    <!--};-->
+    <!--// 刚打开的时候执行-->
+    <!--isMobile();-->
+    <!--//当浏览器尺寸发生改变的执行-->
+    <!--window.onresize = function () {-->
+    <!--isMobile();-->
+    <!--};-->
+    <!--</script>-->
     <script type="text/javascript" src="js/app/Mobile_adaptation.js"></script>
 </head>
 <body>
@@ -133,40 +133,12 @@
     <div class="meet_guest">
         <!--拟邀嘉宾锚点-->
         <a href="javascript:;" name="meet_guest_a" class="meet_guest_a_m"></a>
+        <!--投资人-->
         <a href="javascript:;" class="model_title meet_guest_a"></a>
 
         <p class="meet_guest_introduce">按姓氏首字母排序</p>
         <ul class="clearFix">
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/30.jpg">
-                </div>
-                <span>范维肖</span>
 
-                <p>翊翎资本合伙人</p>
-            </li>
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/20.jpg">
-                </div>
-                <span>黄明明</span>
-
-                <p>明势资本创始合伙人</p>
-            </li>
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/12.jpg">
-                </div>
-                <span>胡海泉</span>
-
-                <p>海泉基金创始人</p>
-            </li>
             <li>
                 <div class="guest_top">
                     <img class="out_circle" src="./images/pc/waiquan.png">
@@ -196,43 +168,6 @@
                 <span>李建军</span>
 
                 <p>创客总部创始合伙人</p>
-            </li>
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/8.jpg">
-                </div>
-                <span>李开复</span>
-
-                <p>创新工场创始人</p>
-            </li>
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/31.jpg">
-                </div>
-                <span>李竹</span>
-
-                <p>英诺天使基金创始合伙人</p>
-            </li>
-            <li class="click_more">
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <b class="people">点击查看更多嘉宾</b>
-                </div>
-            </li>
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/17.jpg">
-                </div>
-                <span>刘小鹰</span>
-
-                <p>老鹰基金创始合伙人</p>
             </li>
             <li>
                 <div class="guest_top">
@@ -278,21 +213,18 @@
                 <div class="guest_top">
                     <img class="out_circle" src="./images/pc/waiquan.png">
                     <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/32.jpg">
-                </div>
-                <span>徐小平</span>
-
-                <p>真格基金创始人</p>
-            </li>
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
                     <img class="people" src="./images/people/29.jpg">
                 </div>
                 <span>杨歌</span>
 
                 <p>星瀚资本创始合伙人</p>
+            </li>
+            <li class="click_more">
+                <div class="guest_top">
+                    <img class="out_circle" src="./images/pc/waiquan.png">
+                    <img class="inner_circle" src="./images/pc/neiquan.png">
+                    <b class="people">点击查看更多嘉宾</b>
+                </div>
             </li>
             <li>
                 <div class="guest_top">
@@ -318,27 +250,17 @@
                 <div class="guest_top">
                     <img class="out_circle" src="./images/pc/waiquan.png">
                     <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/1.jpg">
+                    <img class="people" src="./images/people/42.jpg">
                 </div>
-                <span>周鸿祎</span>
+                <span>祝晓成</span>
 
-                <p>360董事长</p>
+                <p>臻云创投创始合伙人</p>
             </li>
         </ul>
         <a href="javascript:;" class="model_title meet_guest_a_t"></a>
 
         <p class="meet_guest_introduce">按姓氏首字母排序</p>
         <ul class="clearFix">
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/40.jpg">
-                </div>
-                <span>程鹏</span>
-
-                <p>四维图新总裁</p>
-            </li>
             <li>
                 <div class="guest_top">
                     <img class="out_circle" src="./images/pc/waiquan.png">
@@ -353,41 +275,78 @@
                 <div class="guest_top">
                     <img class="out_circle" src="./images/pc/waiquan.png">
                     <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/21.jpg">
+                    <img class="people" src="./images/people/53.jpg">
                 </div>
-                <span>戴帅湘</span>
+                <span>陈震</span>
 
-                <p>慕然认知CEO</p>
+                <p>速感科技CEO</p>
             </li>
             <li>
                 <div class="guest_top">
                     <img class="out_circle" src="./images/pc/waiquan.png">
                     <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/14.jpg">
+                    <img class="people" src="./images/people/30.jpg">
                 </div>
-                <span>顾竹</span>
+                <span>范维肖</span>
 
-                <p>佳格天地联合创始人</p>
+                <p>CELLA创始人</p>
             </li>
             <li>
                 <div class="guest_top">
                     <img class="out_circle" src="./images/pc/waiquan.png">
                     <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/6.jpg">
+                    <img class="people" src="./images/people/37.jpg">
                 </div>
-                <span>李志飞</span>
+                <span>郭家</span>
 
-                <p>出门问问CEO</p>
+                <p>图灵机器人CMO</p>
             </li>
             <li>
                 <div class="guest_top">
                     <img class="out_circle" src="./images/pc/waiquan.png">
                     <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/22.jpg">
+                    <img class="people" src="./images/people/44.jpg">
                 </div>
-                <span>亓超</span>
+                <span>黄鼎隆</span>
 
-                <p>三角兽CTO</p>
+                <p>码隆科技CEO</p>
+            </li>
+            <li>
+                <div class="guest_top">
+                    <img class="out_circle" src="./images/pc/waiquan.png">
+                    <img class="inner_circle" src="./images/pc/neiquan.png">
+                    <img class="people" src="./images/people/43.jpg">
+                </div>
+                <span>李洪波</span>
+
+                <p>Geek+ CTO</p>
+            </li>
+            <li>
+                <div class="guest_top">
+                    <img class="out_circle" src="./images/pc/waiquan.png">
+                    <img class="inner_circle" src="./images/pc/neiquan.png">
+                    <img class="people" src="./images/people/52.jpg">
+                </div>
+                <span>李熠</span>
+
+                <p>51VR CEO</p>
+            </li>
+            <li>
+                <div class="guest_top">
+                    <img class="out_circle" src="./images/pc/waiquan.png">
+                    <img class="inner_circle" src="./images/pc/neiquan.png">
+                    <img class="people" src="./images/people/51.jpg">
+                </div>
+                <span>雷欣</span>
+
+                <p>出门问问CTO</p>
+            </li>
+            <li class="click_more">
+                <div class="guest_top">
+                    <img class="out_circle" src="./images/pc/waiquan.png">
+                    <img class="inner_circle" src="./images/pc/neiquan.png">
+                    <b class="people">点击查看更多嘉宾</b>
+                </div>
             </li>
             <li>
                 <div class="guest_top">
@@ -403,33 +362,6 @@
                 <div class="guest_top">
                     <img class="out_circle" src="./images/pc/waiquan.png">
                     <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/3.jpg">
-                </div>
-                <span>唐文斌</span>
-
-                <p>Face++CTO</p>
-            </li>
-            <li class="click_more">
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <b class="people">点击查看更多嘉宾</b>
-                </div>
-            </li>
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/4.jpg">
-                </div>
-                <span>汪丛青</span>
-
-                <p>HTC-Vive中国区总经理</p>
-            </li>
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
                     <img class="people" src="./images/people/34.jpg">
                 </div>
                 <span>王洁明</span>
@@ -440,41 +372,11 @@
                 <div class="guest_top">
                     <img class="out_circle" src="./images/pc/waiquan.png">
                     <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/26.jpg">
+                    <img class="people" src="./images/people/45.jpg">
                 </div>
-                <span>王小川</span>
+                <span>张凯磊</span>
 
-                <p>搜狗CEO</p>
-            </li>
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/41.jpg">
-                </div>
-                <span>徐冰</span>
-
-                <p>商汤科技联合创始人</p>
-            </li>
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/9.jpg">
-                </div>
-                <span>余凯</span>
-
-                <p>地平线CEO</p>
-            </li>
-            <li>
-                <div class="guest_top">
-                    <img class="out_circle" src="./images/pc/waiquan.png">
-                    <img class="inner_circle" src="./images/pc/neiquan.png">
-                    <img class="people" src="./images/people/27.jpg">
-                </div>
-                <span>俞志晨</span>
-
-                <p>图灵机器人CEO</p>
+                <p>学霸君CEO</p>
             </li>
             <li>
                 <div class="guest_top">
@@ -504,12 +406,29 @@
             <ul class="content_list">
                 <li>
                     <div class="time">
-                        <b>峰会签到、开幕</b>
+                        <b>峰会签到</b>
 
                         <p>8:30-9:20</p>
                     </div>
+                    <!--<div class="theme">-->
+                    <!--<span>峰会开幕、主办方致辞</span>-->
+                    <!--<img src="./images/people/00.jpg" alt=""/>-->
+
+                    <!--<div>-->
+                    <!--<b>潘海祥</b>-->
+
+                    <!--<p>IT耳朵创始人</p>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                </li>
+                <li>
+                    <div class="time">
+                        <b>开幕</b>
+
+                        <p>9:20-9:30</p>
+                    </div>
                     <div class="theme">
-                        <span>峰会开幕、主办方致辞</span>
+                        <span></span>
                         <img src="./images/people/00.jpg" alt=""/>
 
                         <div>
@@ -521,23 +440,6 @@
                 </li>
                 <li>
                     <div class="time">
-                        <b>开幕</b>
-
-                        <p>9:20-9:30</p>
-                    </div>
-                    <!--<div class="theme">-->
-                        <!--<span>峰会开幕、主办方致辞</span>-->
-                        <!--<img src="./images/people/00.jpg" alt=""/>-->
-
-                        <!--<div>-->
-                            <!--<b>潘海祥</b>-->
-
-                            <!--<p>IT耳朵创始人</p>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                </li>
-                <li>
-                    <div class="time">
                         <b>主题演讲</b>
 
                         <p>9:30-11:10</p>
@@ -545,71 +447,55 @@
                     <div class="theme">
                         <!--<span>AI热潮之下，人工智能投资的冷静思考</span>-->
                         <span></span>
-                        <img src="./images/people/31.jpg" alt=""/>
+                        <img src="./images/people/42.jpg" alt=""/>
 
                         <div>
-                            <b>李竹</b>
+                            <b>祝晓成</b>
 
-                            <p>英诺天使基金创始合伙人</p>
+                            <p>臻云创投创始合伙人</p>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="time"></div>
                     <div class="theme">
-                        <!--<span>视觉AI研发与落地的挑战和机遇</span>-->
-                        <span></span>
-                        <img src="./images/people/41.jpg" alt=""/>
-
-                        <div>
-                            <b>徐冰</b>
-
-                            <p>商汤科技联合创始人</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="time"></div>
-                    <div class="theme">
-                        <!--<span>人工智能将会成为传统行业，就像水和电一样</span>-->
-                        <span></span>
-                        <img src="./images/people/19.jpg" alt=""/>
-
-                        <div>
-                            <b>吴世春</b>
-
-                            <p>梅花天使创始合伙人</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="time"></div>
-                    <div class="theme">
-                        <span>人机交互的人性化探索之路</span>
+                        <span>视觉AI研发与落地的挑战和机遇</span>
 
                         <div style="width:100%;height:0.9rem;"></div>
-                        <!--<img src="./images/people/9.jpg" alt=""/>-->
+                        <!--<img src="./images/people/41.jpg" alt=""/>-->
 
                         <!--<div>-->
-                        <!--<b>余凯</b>-->
+                        <!--<b>徐冰</b>-->
 
-                        <!--<p>地平线CEO</p>-->
+                        <!--<p>商汤科技联合创始人</p>-->
                         <!--</div>-->
                     </div>
                 </li>
                 <li>
                     <div class="time"></div>
                     <div class="theme">
-                        <span>自动驾驶将成为主流，机器和人谁是主人？</span>
+                        <span>跨界赋能 在VR环境中训练AI算法</span>
+                        <img src="./images/people/52.jpg" alt=""/>
 
-                        <div style="width:100%;height:0.9rem;"></div>
-                        <!--<img src="./images/people/27.jpg" alt=""/>-->
+                        <div>
+                            <b>李熠</b>
 
-                        <!--<div>-->
-                        <!--<b>俞志晨</b>-->
+                            <p>51VR CEO</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="time"></div>
+                    <div class="theme">
+                        <span>知识驱动的交互式智能服务</span>
 
-                        <!--<p>图灵机器人CEO</p>-->
-                        <!--</div>-->
+                        <img src="./images/people/24.jpg" alt=""/>
+
+                        <div>
+                            <b>初敏</b>
+
+                            <p>思必驰北京研发院院长</p>
+                        </div>
                     </div>
                 </li>
                 <li>
@@ -619,7 +505,7 @@
                         <p>11:10-11:30</p>
                     </div>
                     <div class="theme">
-                        <span>《2017年人工智能&智能制造行业发展研究报告》与《2017年智能行业穿心企业Top100》发布</span>
+                        <span>《2017年人工智能&智能制造行业发展研究报告》与《2017年智能行业创新企业Top100》发布</span>
                         <img src="./images/people/33.jpg" alt=""/>
 
                         <div>
@@ -636,7 +522,7 @@
                         <p>11:30-12:10</p>
                     </div>
                     <div class="theme">
-                        <span>到底是AI+，还是+AI？</span>
+                        <span>第四次工业革命造就的时代机遇</span>
 
                         <div>
                             <img src="./images/people/29.jpg" alt=""/>
@@ -647,53 +533,35 @@
                                 <p>星瀚资本创始合伙人</p>
                             </div>
                         </div>
-                        <div>
-                            <img src="./images/people/31.jpg" alt=""/>
+                        <div class="width_auto">
+                            <img src="./images/people/30.jpg" alt=""/>
 
                             <div>
-                                <b>李竹</b>
+                                <b>范维肖</b>
 
-                                <p>英诺天使基金创始合伙人</p>
+                                <p>CELLA创始人</p>
                             </div>
                         </div>
                         <div>
-                            <img src="./images/people/37.jpg" alt=""/>
+                            <img src="./images/people/54.jpg" alt=""/>
 
                             <div>
-                                <b>郭家</b>
+                                <b>黄喆</b>
 
-                                <p>图灵机器人CMO</p>
+                                <p>奇鱼微办公副总裁</p>
                             </div>
                         </div>
                         <div>
-                            <img src="./images/people/19.jpg" alt=""/>
+                            <img src="./images/people/55.jpg" alt=""/>
 
                             <div>
-                                <b>吴世春</b>
+                                <b>谭涛</b>
 
-                                <p>梅花天使创始合伙人</p>
+                                <p>小果视讯CEO</p>
                             </div>
                         </div>
                         <div style="width:100%;height:0.9rem;"></div>
-                        <!--<div>-->
-
-                            <!--<img src="./images/people/18.jpg" alt=""/>-->
-
-                            <!--<div>-->
-                            <!--<b>魏强</b>-->
-
-                            <!--<p>灵隆科技CEO</p>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <div>
-                            <img src="./images/people/33.jpg" alt=""/>
-
-                            <div>
-                                <b>文飞翔</b>
-
-                                <p>IT桔子创始人兼CEO</p>
-                            </div>
-                        </div>
+                        <div style="width:100%;height:0.9rem;"></div>
                     </div>
                 </li>
                 <li id="center_title">
@@ -708,7 +576,8 @@
                         <p>13:00-14:00</p>
                     </div>
                     <div class="theme">
-                        <span>AI大战的人才之争</span>
+                        <!--<span>AI大战的人才之争</span>-->
+                        <span></span>
 
                         <div style="width:100%;height:0.9rem;"></div>
                         <!--<img src="./images/people/38.jpg" alt=""/>-->
@@ -727,7 +596,8 @@
                         <p>14:00-14:10</p>
                     </div>
                     <div class="theme">
-                        <span>AI大战的人才之争</span>
+                        <!--<span>AI大战的人才之争</span>-->
+                        <span></span>
 
                         <div style="width:100%;height:0.9rem;"></div>
                         <!--<img src="./images/people/38.jpg" alt=""/>-->
@@ -760,50 +630,49 @@
                 <li>
                     <div class="time"></div>
                     <div class="theme">
-                        <span>为什么说人工智能救了智能硬件？</span>
-                        <div style="width:100%;height:0.9rem;"></div>
-                        <!--<img src="./images/people/34.jpg" alt=""/>-->
+                        <span>技术赋能产业，新一代智慧物流的融合与变革</span>
 
-                        <!--<div>-->
-                            <!--<b>王洁明</b>-->
-
-                            <!--<p>totwoo智能珠宝CEO</p>-->
-                        <!--</div>-->
-                    </div>
-                </li>
-                <li>
-                    <div class="time"></div>
-                    <div class="theme">
-                        <span>不谈AI还能好好创业吗？</span>
-
-                        <div style="width:100%;height:0.9rem;"></div>
-                        <!--<img src="./images/people/36.jpg" alt=""/>-->
-
-                        <!--<div>-->
-                        <!--<b>黄明明</b>-->
-
-                        <!--<p>明势资本创始合伙人</p>-->
-                        <!--</div>-->
-                    </div>
-                </li>
-                <li>
-                    <div class="time"></div>
-                    <div class="theme">
-                        <!--<span>AI、大数据在新零售当中的探索与思考</span>-->
-                        <span></span>
-                        <img src="./images/people/6.jpg" alt=""/>
+                        <img src="./images/people/43.jpg" alt=""/>
 
                         <div>
-                            <b>李志飞</b>
+                            <b>李洪波</b>
 
-                            <p>出门问问CEO</p>
+                            <p>Geek+ CTO</p>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="time"></div>
                     <div class="theme">
-                        <span>人工智能和人工智障</span>
+                        <span></span>
+
+                        <img src="./images/people/51.jpg" alt=""/>
+
+                        <div>
+                            <b>雷欣</b>
+
+                            <p>出门问问 CTO</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="time"></div>
+                    <div class="theme">
+                        <span>AI时代的技术应用与探索</span>
+
+                        <img src="./images/people/56.jpg" alt=""/>
+
+                        <div>
+                            <b>邹达</b>
+
+                            <p>APICloud CTO</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="time"></div>
+                    <div class="theme">
+                        <span></span>
 
                         <div style="width:100%;height:0.9rem;"></div>
                         <!--<img src="./images/people/10.jpg" alt=""/>-->
@@ -822,7 +691,8 @@
                         <p>15:50-16:30</p>
                     </div>
                     <div class="theme">
-                        <span>AI太热，智能制造凉了吗？</span>
+                        <!--<span>AI太热，智能制造凉了吗？</span>-->
+                        <span>人工智能与人工智障的前世今生</span>
 
                         <div class="width_auto">
                             <img src="./images/people/2.jpg" alt=""/>
@@ -834,51 +704,62 @@
                             </div>
                         </div>
                         <div class="width_auto">
-                            <img src="./images/people/35.jpg" alt=""/>
+                            <img src="./images/people/53.jpg" alt=""/>
 
                             <div>
-                                <b>乔会君</b>
+                                <b>陈震</b>
 
-                                <p>洪泰智造工场创始人</p>
+                                <p>速感科技 CEO</p>
+                            </div>
+                        </div>
+                        <div class="width_auto">
+                            <img src="./images/people/7.jpg" alt=""/>
+
+                            <div>
+                                <b>李建军</b>
+
+                                <p>创客总部创始合伙人</p>
+                            </div>
+                        </div>
+                        <div class="width_auto">
+                            <img src="./images/people/57.jpg" alt=""/>
+
+                            <div>
+                                <b>朱继志</b>
+
+                                <p>eyemore CEO</p>
                             </div>
                         </div>
                         <div style="width:100%;height:0.9rem;"></div>
+                        <div style="width:100%;height:0.9rem;"></div>
                         <!--<div class="width_auto">-->
-                            <!--<img src="./images/people/34.jpg" alt=""/>-->
+                        <!--<img src="./images/people/11.jpg" alt=""/>-->
 
-                            <!--<div>-->
-                                <!--<b>王洁明</b>-->
+                        <!--<div>-->
+                        <!--<b>李丰</b>-->
 
-                                <!--<p>totwoo智能珠宝CEO</p>-->
-                            <!--</div>-->
+                        <!--<p>丰瑞资本创始合伙人</p>-->
                         <!--</div>-->
-                        <div class="width_auto">
-                            <img src="./images/people/11.jpg" alt=""/>
+                        <!--</div>-->
+                        <!--<div class="width_auto">-->
+                        <!--<img src="./images/people/22.jpg" alt=""/>-->
 
-                            <div>
-                                <b>李丰</b>
+                        <!--<div>-->
+                        <!--<b>亓超</b>-->
 
-                                <p>丰瑞资本创始合伙人</p>
-                            </div>
-                        </div>
-                        <div class="width_auto">
-                            <img src="./images/people/22.jpg" alt=""/>
+                        <!--<p>三角兽CTO</p>-->
+                        <!--</div>-->
+                        <!--</div>-->
 
-                            <div>
-                                <b>亓超</b>
+                        <!--<div class="width_auto">-->
+                        <!--<img src="./images/people/30.jpg" alt=""/>-->
 
-                                <p>三角兽CEO</p>
-                            </div>
-                        </div>
-                        <div class="width_auto">
-                            <img src="./images/people/30.jpg" alt=""/>
+                        <!--<div>-->
+                        <!--<b>范维肖</b>-->
 
-                            <div>
-                                <b>范维肖</b>
-
-                                <p>翊翎资本合伙人</p>
-                            </div>
-                        </div>
+                        <!--<p>翊翎资本合伙人</p>-->
+                        <!--</div>-->
+                        <!--</div>-->
                     </div>
                 </li>
             </ul>
@@ -891,9 +772,15 @@
         <a href="javascript:;" name="meet_enroll_a" class="meet_enroll_a_m"></a>
         <a href="javascript:;" class="model_title meet_enroll_a"></a>
 
-        <a href="http://www.huodongxing.com/event/reg_submit?id=6418270847700"><div class="vip"></div></a>
-        <a href="http://www.huodongxing.com/event/reg_submit?id=6418270847700"><div class="ordinary"></div></a>
-        <a href="http://www.huodongxing.com/event/reg_submit?id=6418270847700"><div class="media end"></div></a>
+        <a href="http://www.hdb.com/party/47r72.html">
+            <div class="vip"></div>
+        </a>
+        <a href="http://www.hdb.com/party/47r72.html">
+            <div class="ordinary"></div>
+        </a>
+        <a href="http://www.hdb.com/party/47r72.html">
+            <div class="media end"></div>
+        </a>
     </div>
 
     <!--合作伙伴-->
@@ -911,7 +798,11 @@
         <div class="center">
             <img src="./images/assist_logo/1.jpg" alt=""/>
             <img src="./images/assist_logo/2.jpg" alt=""/>
-            <img src="./images/assist_logo/3.jpg" alt=""/>
+            <img class="host" src="./images/assist_logo/3.jpg" alt=""/>
+            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
+            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
+            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
+            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
             <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
             <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
             <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
@@ -919,46 +810,13 @@
             <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
             <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
         </div>
-        <b>合作媒体</b>
 
-        <div>
-            <img src="./images/media_logo/1.jpg" alt=""/>
-            <img src="./images/media_logo/2.jpg" alt=""/>
-            <!--<img src="./images/media_logo/3.jpg" alt=""/>-->
-            <img src="./images/media_logo/4.jpg" alt=""/>
-            <img src="./images/media_logo/5.jpg" alt=""/>
-            <img src="./images/media_logo/6.jpg" alt=""/>
-            <img src="./images/media_logo/7.jpg" alt=""/>
-            <img src="./images/media_logo/8.jpg" alt=""/>
-            <!--<img src="./images/media_logo/9.jpg" alt=""/>-->
-            <img src="./images/media_logo/10.jpg" alt=""/>
-            <img src="./images/media_logo/11.jpg" alt=""/>
-            <img src="./images/media_logo/12.jpg" alt=""/>
-            <!--<img src="./images/media_logo/13.jpg" alt=""/>-->
-            <!--<img src="./images/media_logo/14.jpg" alt=""/>-->
-            <!--<img src="./images/media_logo/15.jpg" alt=""/>-->
-            <!--<img src="./images/media_logo/16.jpg" alt=""/>-->
-            <img src="./images/media_logo/17.jpg" alt=""/>
-            <img src="./images/media_logo/18.jpg" alt=""/>
-            <img src="./images/media_logo/19.jpg" alt=""/>
-            <img src="./images/media_logo/20.jpg" alt=""/>
-            <img src="./images/media_logo/21.jpg" alt=""/>
-            <img src="./images/media_logo/22.jpg" alt=""/>
-            <img src="./images/media_logo/23.jpg" alt=""/>
-            <img src="./images/media_logo/24.jpg" alt=""/>
-        </div>
-        <b>首席战略合作伙伴</b>
+        <b>首席合作伙伴</b>
 
-        <div style="height:2rem;">
-            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
-            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
-            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
-            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
-            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
-            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
-            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
-            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
+        <div class="host">
+            <img src="./images/assist_logo/4.jpg" alt=""/>
         </div>
+
         <b>战略合作伙伴</b>
 
         <div style="height:2rem;">
@@ -970,19 +828,105 @@
             <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
             <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
             <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
+            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
+            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
+            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
+            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
         </div>
-        <!--<b>战略合作伙伴</b>-->
 
-        <!--<div>-->
-        <!--<img src="./images/pc/it.png" alt=""/>-->
-        <!--<img src="./images/pc/it.png" alt=""/>-->
-        <!--<img src="./images/pc/it.png" alt=""/>-->
-        <!--<img src="./images/pc/it.png" alt=""/>-->
-        <!--<img src="./images/pc/it.png" alt=""/>-->
-        <!--<img src="./images/pc/it.png" alt=""/>-->
-        <!--<img src="./images/pc/it.png" alt=""/>-->
-        <!--<img src="./images/pc/it.png" alt=""/>-->
-        <!--</div>-->
+        <b>特约合作媒体</b>
+
+        <div>
+            <img src="./images/media_logo/7.jpg" alt=""/>
+            <img src="./images/media_logo/27.jpg" alt=""/>
+            <img src="./images/media_logo/24.jpg" alt=""/>
+            <img src="./images/media_logo/25.jpg" alt=""/>
+            <img src="./images/media_logo/17.jpg" alt=""/>
+            <img src="./images/media_logo/26.jpg" alt=""/>
+            <img src="./images/media_logo/51.jpg" alt=""/>
+            <img src="./images/media_logo/52.jpg" alt=""/>
+            <img src="./images/media_logo/53.jpg" alt=""/>
+        </div>
+
+        <b>标准合作媒体</b>
+
+        <div>
+            <img src="./images/media_logo/31.jpg" alt=""/>
+            <img src="./images/media_logo/32.jpg" alt=""/>
+            <img src="./images/media_logo/33.jpg" alt=""/>
+            <img src="./images/media_logo/34.jpg" alt=""/>
+            <img src="./images/media_logo/35.jpg" alt=""/>
+            <img src="./images/media_logo/36.jpg" alt=""/>
+            <img src="./images/media_logo/37.jpg" alt=""/>
+            <img src="./images/media_logo/38.jpg" alt=""/>
+            <img src="./images/media_logo/39.jpg" alt=""/>
+            <img src="./images/media_logo/40.jpg" alt=""/>
+            <img src="./images/media_logo/41.jpg" alt=""/>
+            <img src="./images/media_logo/42.jpg" alt=""/>
+            <img src="./images/media_logo/43.jpg" alt=""/>
+            <img src="./images/media_logo/44.jpg" alt=""/>
+            <img src="./images/media_logo/46.jpg" alt=""/>
+            <img src="./images/media_logo/47.jpg" alt=""/>
+            <img src="./images/media_logo/1.jpg" alt=""/>
+            <img src="./images/media_logo/2.jpg" alt=""/>
+            <img src="./images/media_logo/4.jpg" alt=""/>
+            <img src="./images/media_logo/8.jpg" alt=""/>
+            <img src="./images/media_logo/41.jpg" alt=""/>
+            <img src="./images/media_logo/11.jpg" alt=""/>
+            <img src="./images/media_logo/12.jpg" alt=""/>
+            <img src="./images/media_logo/18.jpg" alt=""/>
+            <img src="./images/media_logo/32.jpg" alt=""/>
+            <img src="./images/media_logo/20.jpg" alt=""/>
+            <img src="./images/media_logo/21.jpg" alt=""/>
+            <img src="./images/media_logo/22.jpg" alt=""/>
+            <img src="./images/media_logo/23.jpg" alt=""/>
+            <img src="./images/media_logo/61.jpg" alt=""/>
+            <!--<img src="./images/media_logo/65.jpg" alt=""/>-->
+            <img src="./images/media_logo/63.jpg" alt=""/>
+            <img src="./images/media_logo/64.jpg" alt=""/>
+            <!--<img src="./images/media_logo/65.jpg" alt=""/>-->
+            <img src="./images/media_logo/66.jpg" alt=""/>
+            <!--<img src="./images/media_logo/67.jpg" alt=""/>-->
+            <img src="./images/media_logo/68.jpg" alt=""/>
+            <img src="./images/media_logo/69.jpg" alt=""/>
+            <img src="./images/media_logo/70.jpg" alt=""/>
+            <img src="./images/media_logo/71.jpg" alt=""/>
+            <img src="./images/media_logo/72.jpg" alt=""/>
+            <img src="./images/media_logo/73.jpg" alt=""/>
+            <img src="./images/media_logo/74.jpg" alt=""/>
+            <img src="./images/media_logo/75.jpg" alt=""/>
+            <img src="./images/media_logo/76.jpg" alt=""/>
+            <img src="./images/media_logo/77.jpg" alt=""/>
+        </div>
+
+        <b>独家速记合作平台</b>
+
+        <div style="height:1rem;">
+            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
+            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
+        </div>
+
+        <b>独家活动报名平台</b>
+
+        <div class="host">
+            <img src="./images/media_logo/91.jpg" alt=""/>
+            <!--<img src="./images/media_logo/wait.jpg" alt=""/>-->
+        </div>
+
+        <b>直播合作平台</b>
+
+        <div class="center">
+            <img src="./images/media_logo/24.jpg" alt=""/>
+            <img src="./images/media_logo/90.jpg" alt=""/>
+        </div>
+
+        <b>合作伙伴</b>
+
+        <div class="center">
+            <img src="./images/assist_logo/10.jpg" alt=""/>
+            <img src="./images/assist_logo/11.jpg" alt=""/>
+            <img class="host" src="./images/assist_logo/12.jpg" alt=""/>
+        </div>
     </div>
 
     <!--峰会地址-->
@@ -1155,9 +1099,9 @@
 <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js?v=4"></script>
 <script src="http://tp.qingpr.com/public/js/wxshare.js?v=4"></script>
 <script>
-    wxtitle='IEIC·IT耳朵智能创新大会';//分享标题
-    wxdesc='近百位知名投资机构大咖，独角兽创始人、创业风云人物，与您相约IEIC·IT耳朵智能创新大会。';//分享描述
-    wximgUrl='http://tp.qingpr.com/public/img/summit.jpg';//分享时显示的图片
+    wxtitle = 'IEIC·IT耳朵智能创新大会';//分享标题
+    wxdesc = '近百位知名投资机构大咖，独角兽创始人、创业风云人物，与您相约IEIC·IT耳朵智能创新大会。';//分享描述
+    wximgUrl = 'http://tp.qingpr.com/public/img/summit.jpg';//分享时显示的图片
     wxShare(wxtitle, wxdesc, wximgUrl);
 </script>
 <!-- 微信分享end -->
